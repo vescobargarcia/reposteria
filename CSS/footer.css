@@ -1,0 +1,24 @@
+footer {
+    background-color: #caadde;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    max-height: 300px;
+}
+footer>img {
+    width: 50px;
+    margin: 5px;
+}
+
+footer>p {
+    color: white
+}
+
+footer>p>a {
+    color: white;
+    text-decoration: none;
+}
+
+.cursiva {
+    font-style: italic;
+}

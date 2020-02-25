@@ -1,0 +1,49 @@
+.rejilla {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "cabeza cabeza cabeza" "nave text noticia " "pie pie pie";
+}
+
+header {
+    grid-area: cabeza;
+}
+
+nav {
+    grid-area: nave;
+    max-width: auto;
+}
+
+section {
+    grid-area: text;
+    width: auto;
+}
+
+aside {
+    width: auto;
+    grid-area:noticia;
+
+}
+
+footer {
+    grid-area: pie;
+    width: auto;
+}
+.grid-noticias{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "n1 n1"
+                          "n2 n2"  
+                          "n3 n3";
+    
+}
+#n1{
+    grid-area: n1;
+}
+#n2{
+    grid-area: n2;
+}
+#n3{
+    grid-area: n3;
+}
